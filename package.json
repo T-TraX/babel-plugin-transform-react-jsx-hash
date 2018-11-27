@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-transform-react-jsx-hash",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/T-TraX/babel-plugin-transform-react-jsx-hash.git",
+  "author": "t.trax0@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib --presets=@babel/env"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
